@@ -1,0 +1,62 @@
+#update {
+    display: none;
+}
+
+.progress {
+    height: 3rem;
+    background-color: rgb(238, 238, 238);
+    width: 100%;    
+}
+.progress-bar{
+    /* background:linear-gradient(86deg, rgba(181,0,14,1) 5%, rgba(150,21,205,1) 21%, rgba(0,52,255,1) 38%, rgba(0,97,206,1) 53%, rgba(17,247,217,1) 72%, rgba(125,251,65,1) 86%, rgba(234,240,3,1) 100%); */
+    /* background-size: 100% 100%; */
+    /* https://cssgradient.io/ */
+    background-color: #afd5ea;  
+}
+
+h1 {
+    margin: 2rem;
+}
+
+.bg1 {
+    background-color: antiquewhite;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+button {
+    transition-duration: 0.4s;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 5rem;
+}
+  
+button:hover {
+    background-color: #afd5ea; 
+    color: rgb(41, 39, 39);
+}
+
+button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+#addButton {
+    border-radius: 100%;
+    width: 3rem;
+}
+#addButton:hover {
+    background-color: #eabcaf; 
+    color: rgb(41, 39, 39);
+}
+
+
+.mg2 {
+    margin: 2rem;
+}
+.mgtb2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
